@@ -1,11 +1,12 @@
 @font-face {
-  font-family: Nosegrind;
-  src: url('../fonts/NOSED___.TTF');
+  font-family: Graffiti;
+  src: url('../fonts/GANGBANGCRIME.ttf');
 }
 
-.graffiti{
-  font-family: Nosegrind;
-  color: white;
+.jumbotron h1{
+  font-family: Graffiti;
+  color: #ffa400;
+  -webkit-text-stroke: 2px black;
 }
 
 #menu{
@@ -13,7 +14,7 @@
 }
 
 .navbar-default .navbar-nav>.active>a{
-  background: blue;
+  background: #ffa400;
   color: white;
 }
 .navbar-default .navbar-nav>li>a:hover{
